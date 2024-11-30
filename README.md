@@ -114,10 +114,10 @@ The Library Management System (LMS) is a robust Java-based application designed 
 This project is licensed under the MIT License.
 
 ## Contact
-T.D Thumpalage
-0789854096
-Advanced Technological Institute Kandy
-Department of Information Technology
+- T.D Thumpalage
+- 0789854096
+- Advanced Technological Institute Kandy
+- Department of Information Technology
 
 ## Acknowledgments
 - NetBeans IDE
