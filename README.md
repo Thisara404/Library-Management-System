@@ -1,27 +1,45 @@
 # Library Management System (LMS)
 
 ## Project Overview
-
 The Library Management System (LMS) is a robust Java-based application designed to streamline library operations through an intuitive graphical user interface. Developed as part of the Advanced Technological Institute Kandy's Information Technology program, this project demonstrates advanced software engineering principles and object-oriented programming techniques.
 
 ## Key Features
-
 - 🔐 Secure Login System
   - Separate access levels for Admin and Members
   - Role-based authentication and privileges
-
 - 📚 Comprehensive Book Management
   - Add, update, delete, and search books
   - Multiple search methods (by title, by title and author)
   - Detailed book information tracking
-
 - 👥 Member Management
   - Full member lifecycle management
   - Membership card tracking
   - Admin-controlled member operations
 
-## Technical Specifications
+## Screenshots
 
+### Login Screen
+![Login Screen](LMS_Tihisraa/SS/Login.png)
+
+### Book Management
+![Book Manager](LMS_Tihisraa/SS/Book%20Manager.png)
+
+### Edit Book
+![Edit Book](LMS_Tihisraa/SS/Edit%20Book.png)
+
+### Member Management
+![Member Manager](LMS_Tihisraa/SS/Member%20Manager.png)
+
+### Edit Member
+![Edit Member](LMS_Tihisraa/SS/Edit%20Member.png)
+
+### Issued Books
+![Issued Books](LMS_Tihisraa/SS/Issued%20Books.png)
+
+### Returned Books
+![Returned Books](LMS_Tihisraa/SS/Returned%20Books.png)
+
+## Technical Specifications
 ### Architecture
 - **Design Pattern:** Model-View-Controller (MVC)
 - **Layers:**
@@ -30,23 +48,18 @@ The Library Management System (LMS) is a robust Java-based application designed 
   - Controller Layer: Interaction management
 
 ### Object-Oriented Programming Concepts
-
 1. **Encapsulation**
    - Private fields with public getters and setters
    - Data protection in Book, Member, and MembershipCard classes
-
 2. **Inheritance**
    - User class as a base for Admin and Member classes
    - Code reusability and hierarchical design
-
 3. **Polymorphism**
    - Method overriding (e.g., `displayDetails()`)
    - Flexible method implementations
-
 4. **Abstraction**
    - Clean separation of concerns
    - Interfaces and abstract classes for common behaviors
-
 5. **Aggregation & Composition**
    - Loose coupling between Books and Members
    - Strong relationship with MembershipCard
@@ -58,24 +71,20 @@ The Library Management System (LMS) is a robust Java-based application designed 
   - Unauthorized access scenarios
 
 ## Prerequisites
-
 - Java Development Kit (JDK) 8 or higher
 - NetBeans IDE (recommended)
 - Basic understanding of Java and OOP concepts
 
 ## Installation
-
 1. Clone the repository
    ```bash
    git clone https://github.com/Thisara404/library-management-system.git
    ```
-
 2. Open the project in NetBeans
 3. Resolve dependencies
 4. Build and run the application
 
 ## Usage
-
 ### Login
 - Launch the application
 - Enter username and password
@@ -86,7 +95,6 @@ The Library Management System (LMS) is a robust Java-based application designed 
   - Add new members
   - Update member details
   - Activate/Deactivate memberships
-
 - Manage Books
   - Add new books
   - Update book information
