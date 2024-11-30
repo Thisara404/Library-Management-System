@@ -67,7 +67,7 @@ The Library Management System (LMS) is a robust Java-based application designed 
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/yourusername/library-management-system.git
+   git clone https://github.com/Thisara404/library-management-system.git
    ```
 
 2. Open the project in NetBeans
@@ -115,6 +115,7 @@ This project is licensed under the MIT License.
 
 ## Contact
 T.D Thumpalage
+0789854096
 Advanced Technological Institute Kandy
 Department of Information Technology
 
